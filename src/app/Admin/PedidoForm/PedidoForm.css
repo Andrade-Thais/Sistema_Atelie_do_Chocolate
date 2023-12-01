@@ -1,0 +1,300 @@
+.container-formulario {
+     background-color: #FFE5DD;
+     border-radius: 15px;
+     width: 90%;
+     padding: 2rem;
+     margin: 0 auto;
+}
+
+.full-form {
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form-containers {
+    flex-wrap: wrap;
+    height: 90%;
+    max-width: 98%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #fafafa;
+    padding: 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-container form {
+    max-width: 90%;
+}
+
+.inputs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: .5rem;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: 2rem;
+    border: none;
+    max-width: 90%;
+}
+
+.label {
+    font-weight: bold;
+    color: #777;
+    font-size: .9rem;
+}
+
+.input, .textarea {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 8px 0px;
+}
+
+
+.btn__itens, .btn__quantidades {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.itens {
+    vertical-align: middle;
+}
+
+.textarea {
+    height: 120px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    max-width: 90%;
+}
+
+.actions button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #4C2B17;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.formularios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.steps {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+
+.steps::after {
+    content: "";
+    width: max-content;
+    border-bottom: 30px solid #000;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+}
+
+.step {
+    text-align: center;
+    z-index: 1;
+    width: 120px;
+    padding: 0.5rem;
+}
+
+.step svg {
+    font-size: 2rem;
+    margin-bottom: .2rem;
+    fill: #a1a1a1;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.active > svg {
+    fill: #4C2B17;
+}
+
+.btn__itens, .btn__opcoes, .btn__quantidades {
+        margin-bottom: 4rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        max-width: 100%;
+}
+
+.btn__quantidades {
+    gap: 40px;
+}
+
+.suboption, .label-selected {
+    color: #000;
+    border-radius: 20px;
+    border: 2px solid #4C2B17;
+}
+
+.opcao {
+    padding: 1rem;
+    border: 1px solid #000;
+    color: #fff;
+    vertical-align: middle;
+    background-color: rgba(76, 43, 23, 0.50);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    display: none;
+}
+
+.checkbox:checked + .opcao,
+.checkbox:checked ~ .opcao {
+    border: 2.5px solid #000;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantidades, .quantidades__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C2B1756;
+    border-radius: 3px;
+}
+
+.quantidades label {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 90%;
+}
+
+.quantidades .quantidades__input {
+    border: none;
+}
+
+.quantidades__input {
+    border-radius: 20px;
+}
+
+.quantidades {
+    background-color: #fafafa;
+}
+
+.btn__increment, .btn__decrement {
+    color: #fafafa;
+    background-color: #4C2B17;
+    border: none;
+    font-size: 24px;
+    width: 5vw;
+    border-radius: 30px;
+}
+
+
+/* Ajustes de Responsividade */
+@media screen and (max-width: 1024px) {
+    .full-form, .inputs-container, .actions, .steps{
+    align-items: flex-start;
+    justify-content: flex-start;
+    }
+
+    .formularios {
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+
+    .container-formulario, .form-containers {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+
+    .steps .hidden {
+        display: none;
+    }
+
+    .container-formulario {
+        min-width: 98vw;
+    }
+
+    .inputs-container .form-control {
+        min-width: 98%;
+    }
+
+    .inputs-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+   .form-containers .actions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        left: 5%;
+    }
+
+    .btn__opcoes, .btn__itens, .btn__quantidades {
+        flex-wrap: wrap;
+    }
+}
+
+

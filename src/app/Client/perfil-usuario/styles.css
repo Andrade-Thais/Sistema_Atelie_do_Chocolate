@@ -1,0 +1,103 @@
+.welcome-heading {
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.welcome-message {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dashboard {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ultimosPedidos {
+  margin: 20px 0;
+  background-color: #fff0eb;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.table {
+  overflow: scroll;
+  max-width: 90%;
+}
+
+.ultimosPedidos__header {
+  background-color: #ffd6c8;
+  border-radius: 5px;
+}
+
+.ultimosPedidos__body {
+  background-color: #ffe5dd;
+  width: 95%;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-title {
+    font-family: "Oooh Baby", cursive;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  width: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: transform 0.3s ease;
+}
+
+.arrow.up {
+  transform: rotate(-135deg);
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.custom-dropdown.open .dropdown-menu {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .ultimosPedidos {
+    width: 95%;
+  }
+  .table {
+    overflow: scroll;
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,21 @@
+.form, .form_fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form {
+    width: 30%;
+    background-color: #FFE5DD;
+    margin: 5vh auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .form {
+        width: 90%;
+    }
+}

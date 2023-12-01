@@ -1,0 +1,65 @@
+.titulo{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.submit, .cancel{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #ffd6c8de;
+  border-radius: 100px;
+  border: 1px solid #ffd6c8de;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.search {
+    margin-top: 40px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 100px;
+  border: 1px solid #ffd6c8de;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.submit:hover, .cancel:hover {
+  background: #f1b5a0;
+  border: 1px solid #f1b5a0;
+}
+
+.cont table.table {
+  width: 95%;
+  margin: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 60vh;
+  width: 90vw;
+}
+
+.cont {
+  overflow: scroll;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .pesquisar {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .pesquisar .pesquisar__input, .pesquisar .pesquisar__button, .link__button {
+    width: 50%;
+  }
+}

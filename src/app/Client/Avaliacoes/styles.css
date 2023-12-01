@@ -1,0 +1,13 @@
+.avaliacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.avaliacao__heading {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+}

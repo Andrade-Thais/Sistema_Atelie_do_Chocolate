@@ -1,0 +1,23 @@
+.options-container > * {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.button:checked + label {
+    border: 2px solid #000;
+}
+
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    display: none;
+}
+.option-button.selected {
+    background-color: #4C2B17; /* Cor de fundo quando selecionado */
+    color: white; /* Cor do texto quando selecionado */
+    /* Adicione mais estilos conforme necessário */
+  }

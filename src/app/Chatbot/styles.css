@@ -1,0 +1,99 @@
+body {
+    font-family: 'Nunito Sans', system-ui, -apple-system, sans-serif;
+}
+.react-chatbot-kit-chat-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.react-chatbot-kit-chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 80vw;
+    gap: 20px;
+    height: auto;
+    margin: 25px auto;
+}
+
+.react-chatbot-kit-chat-message-container {
+    width: 70vw;
+    background-color: #FFE5DD;   
+    height: auto;
+    overflow: hidden;
+
+}
+
+.react-chatbot-kit-chat-bot-message-container, .react-chatbot-kit-user-chat-message-container {
+    width: 90%;
+}
+
+.react-chatbot-kit-chat-bot-message{
+    width: 90%;
+    background-color: #4C2B17;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow{
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #4C2B17;
+    position: absolute;
+    left: -7px;
+    top: 13px;
+}
+
+.react-chatbot-kit-chat-header {
+    background-color: #ffd9cb;
+    
+}
+
+.react-chatbot-kit-chat-input-container {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    position: relative;
+    justify-content: center;
+}
+
+.react-chatbot-kit-chat-inner-container {
+    background-color: #FFE5DD;
+    overflow-y: scroll;
+}
+
+.options-container {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px
+}
+
+.react-chatbot-kit-chat-input-form {
+    background-color: #ffd9cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.react-chatbot-kit-chat-input {
+    border: none;
+}
+
+.react-chatbot-kit-chat-btn-send {
+    background-color: #4c2b178f;
+    width: 100px;
+    border: none;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-frame {
+    left: 0;
+    height: 25%;
+    background-color: #FFF0EB;
+}
+
+.status {
+        background-color: #FFF0EB;
+}
+
+.box-servico .card {
+    margin-top: 50px;
+    background-color: #4c2b1756;
+    left: 5%;
+    height: 80vh;
+}
+
+.iframe {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.graficos {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 575px){
+    .intro-cards {
+        width: 100%;
+        display: block;
+    }
+}

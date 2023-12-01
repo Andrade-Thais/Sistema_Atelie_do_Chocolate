@@ -1,0 +1,162 @@
+{
+   "catalogo": [
+      {
+         "id": 1,
+         "nome":"Bolos"
+      },
+      {
+         "id": 2,
+         "nome":"Salgados"
+      },
+      {
+         "id":3,
+         "nome":"Doces"
+      },
+      {
+         "id":4,
+         "nome":"Mini Lanches"
+      },
+      {
+         "id":5,
+         "nome":"Serviços de Buffet"
+      },
+      {
+         "id": 6,
+         "opcaoRelacionada": 1,
+         "nome": "Bolo Personalizado",
+         "quantidade": 0
+      },
+      {
+         "id": 7,
+         "opcaoRelacionada": 1,
+         "nome":"Bolo Comum",
+         "quantidade": 0
+      },
+      {
+         "id": 8,
+         "opcaoRelacionada": 2,
+         "nome":"Coxinha",
+         "quantidade": 0
+      },
+      {
+        "id": 9,
+        "opcaoRelacionada": 2,
+        "nome":"Bolinho de Queijo",
+        "quantidade": 0
+      },
+      {
+        "id": 10,
+        "opcaoRelacionada": 2,
+        "nome": "Bolinho de Carne",
+        "quantidade": 0
+      },
+      {
+        "id": 11,
+        "opcaoRelacionada": 2,
+        "nome": "Esfiha de Carne",
+        "quantidade": 0
+      },
+      {
+        "id": 12,
+        "opcaoRelacionada": 2,
+        "nome": "Esfiha de Frango",
+        "quantidade": 0
+      },
+      {
+        "id": 13,
+        "opcaoRelacionada": 2,
+        "nome": "Esfiha de Calabresa",
+        "quantidade": 0
+      },
+      {
+        "id": 14,
+        "opcaoRelacionada": 2,
+        "nome": "Quibe",
+        "quantidade": 0
+      },
+      {
+        "id": 15,
+        "opcaoRelacionada": 2,
+        "nome": "Crepe Suíço",
+        "quantidade": 0
+      },
+      {
+        "id": 16,
+        "opcaoRelacionada": 3,
+        "nome": "Brigadeiro",
+        "quantidade": 0
+      },
+      {
+        "id": 17,
+        "opcaoRelacionada": 3,
+        "nome": "Beijinho",
+        "quantidade": 0
+      },
+      {
+        "id": 18,
+        "opcaoRelacionada": 3,
+        "nome": "Brigadeiro de Paçoca",
+        "quantidade": 0
+      },
+      {
+        "id": 19,
+        "opcaoRelacionada": 3,
+        "nome": "Bicho de Pé",
+        "quantidade": 0
+      },
+      {
+        "id": 20,
+        "opcaoRelacionada": 3,
+        "nome": "Brigadeiro de Nutella",
+        "quantidade": 0
+      },
+      {
+        "id": 21,
+        "opcaoRelacionada": 3,
+        "nome": "Brigadeiro de Ninho",
+        "quantidade": 0
+      },
+      {
+        "id": 22,
+        "opcaoRelacionada": 3,
+        "nome": "Brigadeiro de Churros",
+        "quantidade": 0
+      },
+      {
+        "id": 23,
+        "opcaoRelacionada": 3,
+        "nome": "Cascata de Chocolate",
+        "quantidade": 0
+      },
+      {
+        "id": 24,
+        "opcaoRelacionada": 4,
+        "nome": "Mini Hambúrguer",
+        "quantidade": 0
+      },
+      {
+        "id": 25,
+        "opcaoRelacionada": 4,
+        "nome": "Mini Hot Dog",
+        "quantidade": 0
+      },
+      {
+        "id": 26,
+        "opcaoRelacionada": 5,
+        "nome": "Pacote 1",
+        "quantidade": 0
+      },
+      {
+        "id": 27,
+        "opcaoRelacionada": 5,
+        "nome": "Pacote 2",
+        "quantidade": 0
+      },
+      {
+        "id": 28,
+        "opcaoRelacionada": 5,
+        "nome": "Pacote 3",
+        "quantidade": 0
+      }
+   ]
+}

@@ -1,0 +1,141 @@
+.title {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_opcoes, .btn__opcoes, .btn__opcao, .labels, .send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu_opcoes, .react-chatbot-kit-chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80vw;
+    gap: 20px;
+    height: auto;
+    background: rgba(255, 219, 208, 0.95);
+    margin: 25px auto;
+}
+
+.menu_opcoes .text {
+    display: flex;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 15px;
+}
+
+.img__perfil {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.voltar {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: rgb(76, 43, 23);
+}
+
+
+.btn__opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.opcao {
+    padding: .7rem;
+    border: 1px solid #000;
+    color: #fff;
+    vertical-align: middle;
+    background-color: rgba(76, 43, 23, 0.50);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+.labels {
+    font-size: 12px;
+}
+
+.opcao:checked + label {
+    border: 2px solid #000;
+}
+
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    display: none;
+}
+
+.menu_opcoes .send {
+    margin-top: 25px;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.quantidades {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.input-quantidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.btnDiminuir, .btnAumentar {
+  background-color: rgb(76, 43, 23);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btnDiminuir:hover, .btnAumentar:hover {
+  background-color: rgb(76, 43, 23);
+}
+
+.botao {
+  margin: 0 auto;
+  padding: .7rem;
+  border-radius: 30px;
+  color: #fff;
+  background-color: rgba(76, 43, 23, 0.70);
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+

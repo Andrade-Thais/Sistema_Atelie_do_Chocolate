@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300&family=Oooh+Baby&display=swap');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-image: url('../../public/assets/background.png');
+}
+
+header {
+  z-index: 20;
+  position: static;
+  height: 120px;
+  margin-bottom: 200px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oooh Baby', cursive;
+  font-size: 30px;
+}
+
+p, h4, h5, h6, em, label, span {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+em {
+  font-weight: bolder;
+}
+.features-box .icon {
+  color: #4c2b178f;
+}
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+    .logotipo {
+    width: 150px;
+    display: flex;
+    float: left;
+    margin-left: 1em;
+    }
+
+  .container-fluid ul li {
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    padding-right: 50px;
+  }
+
+  .navbar-toggler {
+    display: inline-block;
+  }
+
+  .rosa {
+    background: rgba(255,240,235,255);
+    overflow: hidden;
+  }
+
+  .rosa-escuro {
+    background: #ffd9cb;
+    height: 1em;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .logotipo {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    float: left;
+    margin-left: 1em;
+    }
+
+input, button, label {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+.cont {
+  border-radius: 20px;
+  padding: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 100px;
+  background: #FFE5DD;
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+h2 {
+  width: 100%;
+  font-size: 26px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  
+}
+label span {
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.forgot-pass {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #cfcfcf;
+}
+
+.submit{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #ffd6c8de;
+  border-radius: 100px;
+  border: 1px solid #ffd6c8de;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit:hover {
+  background: #f1b5a0;
+  border: 1px solid #f1b5a0;
+
+}
+
+.button {
+  margin: 50px 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #4c2b1756;
+  border-radius: 50px;
+  border: 1px solid #4C2B17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.button__div {
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  color: #fff;
+  width: 100%;
+}
+
+.button:hover {
+  margin: 50px 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #4C2B17;
+  border-radius: 50px;
+  border: 1px solid #4c2b1756;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+
+.carousel {
+      display: block;
+      width: 75vw;
+      height: 25vh;
+      margin: auto;
+      margin-bottom: 300px;
+      margin-top: 170px;
+    }
+
+    .title {
+      font-family: 'Oooh Baby', cursive;
+      text-align: center;
+    }
+
+    .text {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: lighter;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .img__profile {
+      width: 40%;
+    }
+    
+
+  #banner{
+background-color: rgba(255,206,209,255);
+color: #201f1f;
+padding: 50px 0;
+}
+
+#banner img{
+    width: 100%;
+}
+
+
+.btn-banner{
+    margin: 8% 3% 5% 0;
+}
+
+#features{
+    padding: 7% 5%;
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#avaliacoes{
+    background-color: rgb(255, 218, 220);
+    color: #201f1f;
+    padding: 2% 5%;
+    text-align: center;
+    }
+
+#avaliacoes img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+#servicos .titulo{
+    margin-top: 10%;
+}
+
+#servicos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  gap: 50px;
+}
+
+.box-servicos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.box-servico .card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header.servicos__header {
+  background-color: #4C2B17;
+  color: #fff
+}
+
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+    background-color: rgba(255,240,235,255);
+}
+
+#icon {
+    color: #070707;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 924px) {
+    .button__div{ 
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .button_div .button {
+      display: flex;
+      flex-grow: 5;
+    }
+    .container {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .box-servicos {
+      width: 100%;
+    }
+
+    .box-servico .card-body {
+      width: 100%;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logotipo {
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    float: left;
+    margin-left: 1em;
+    }
+    .navbar-toggler {
+      width: 30vw;
+    }
+      .navbar-collapse {
+      height: 25vh;
+      overflow-y: scroll;
+  }
+}
